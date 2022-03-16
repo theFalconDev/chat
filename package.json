@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat app with socket",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "io": "^1.0.4",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theFalconDev/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theFalconDev/chat/issues"
+  },
+  "homepage": "https://github.com/theFalconDev/chat#readme"
+}
